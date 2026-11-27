@@ -48,6 +48,17 @@ Official Government PDFs
 
 ---
 
+---
+
+## 🐍 Python back end (FastAPI + LangGraph)
+
+A Python version of the back end lives in [`python-backend/`](python-backend/). It uses the same
+Pinecone index and embedding model, and adds Gemini query rewriting, a LangGraph Self-RAG
+relevance check that re-searches when retrieved chunks aren't relevant, caching, Pydantic
+validation, a pytest suite and GitHub Actions CI. See [python-backend/README.md](python-backend/README.md).
+
+---
+
 ## 🛠️ Tech Stack
 
 ### Frontend *(In Progress)*
